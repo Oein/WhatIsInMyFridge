@@ -1,2 +1,21 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+	import Page from './page.svelte';
+</script>
+
+<div class="wrapper main">
+	<Page storageKey="fridge[1]" />
+	<Page storageKey="fridge[2]" />
+	<Page storageKey="fridge[3]" />
+	<Page storageKey="fridge[4]" />
+</div>
+
+<style lang="scss">
+	.wrapper {
+		height: 100%;
+		display: flex;
+		/* important */
+		overflow-y: hidden;
+		overflow-x: auto;
+		scroll-snap-type: x mandatory;
+	}
+</style>
