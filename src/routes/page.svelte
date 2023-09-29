@@ -5,6 +5,7 @@
 	import Fridge from './fridge.svelte';
 
 	export let storageKey: string;
+	export let container: HTMLDivElement;
 
 	let fridgeName = '냉장고';
 
@@ -22,7 +23,7 @@
 	};
 </script>
 
-<div class="cont">
+<div class="cont" bind:this={container}>
 	<input
 		bind:value={fridgeName}
 		placeholder="냉장고 이름"

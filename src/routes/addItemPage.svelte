@@ -59,7 +59,7 @@
 		left: 0px;
 		right: 0px;
 		bottom: 0px;
-		z-index: 2;
+		z-index: 4;
 		animation: bgfadein 0.3s ease-in-out;
 	}
 
@@ -78,7 +78,7 @@
 		left: 0px;
 		right: 0px;
 		bottom: 0px;
-		z-index: 3;
+		z-index: 5;
 		background: white;
 		overflow: auto;
 		padding: var(--gap);
