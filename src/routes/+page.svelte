@@ -10,6 +10,7 @@
 	<Page storageKey="fridge[2]" bind:container={pages[1]} />
 	<Page storageKey="fridge[3]" bind:container={pages[2]} />
 	<Page storageKey="fridge[4]" bind:container={pages[3]} />
+	<Page storageKey="fridge[5]" bind:container={pages[4]} />
 </div>
 
 <div class="nav">
